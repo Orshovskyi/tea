@@ -1,4 +1,3 @@
-// Helper function to calculate the area of a rectangle
 function calculateRectangleArea(length, width) {
     if (length <= 0 || width <= 0) {
       throw new Error("Both length and width must be positive numbers");
@@ -7,7 +6,6 @@ function calculateRectangleArea(length, width) {
     return length * width;
   }
   
-  // Helper function to check if a number is prime
   function isPrime(number) {
     if (number <= 1) {
       return false;
@@ -22,7 +20,6 @@ function calculateRectangleArea(length, width) {
     return true;
   }
   
-  // Demo using the helper functions
   try {
     const rectangleArea = calculateRectangleArea(5, 8);
     console.log("Rectangle Area:", rectangleArea);
